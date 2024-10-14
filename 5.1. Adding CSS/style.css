@@ -1,0 +1,45 @@
+/* styles.css */
+h1 {
+    color: green;
+    font-size: 28 px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: camelcase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: var(--transition);
+    transform: rotate(30deg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, red, white);
+    background-size: 200% 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: justify;
+    position: relative;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    hyphens: auto;
+    font-family: Arial, sans-serif;
+    color: black;
+    transition: text-shadow 0.5s ease;
+    transform: rotate(0deg);
+    
+
+}
+
+body {
+    background-color: lightgray;
+}
